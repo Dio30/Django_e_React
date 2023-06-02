@@ -1,0 +1,28 @@
+body{
+  background-color:#00ffff;
+}
+
+.card{
+  background-color: #0dc9c9;
+}
+
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn{
+  position: relative;
+   top: 0;
+   right: 0;
+   display: inline-block;
+   left: 35%;
+   margin-top: 1rem;
+}
+
+.error_messages{
+  text-align: center;
+  color: #ff0b0b;
+  font-size: 120%;
+}
