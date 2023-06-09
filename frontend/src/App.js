@@ -1,18 +1,18 @@
 // App.js
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes} from 'react-router-dom';
-import axios from 'axios';
 import './App.css';
 import LoginPage from './LoginForm';
+import CreateCustomer from './create_customer';
 
 
 function App() {
-    axios.defaults.headers.common['Authorization'] = null;
-  
+    
   return (
     <Router>
       <Routes>
         <Route path="/" element={<LoginPage/>}></Route>
+        <Route path="/create_customer" element={<CreateCustomer/>}></Route>
       </Routes>
     </Router>
   );

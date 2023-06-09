@@ -17,7 +17,6 @@ const client = axios.create({
 });
 
 function App() {
-
   const [currentUser, setCurrentUser] = useState();
   const [registrationToggle, setRegistrationToggle] = useState('');
   const [username, setUsername] = useState('');
